@@ -21,7 +21,7 @@ var config = {
   zookeeperHosts: [
     '127.0.0.1',
   ],
-  zookeeperRoot: '/hbase1',
+  zookeeperRoot: '/hbase',
 
   // logger: console,
   logger: {

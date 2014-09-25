@@ -1167,7 +1167,7 @@ describe('test/client.test.js', function () {
           client.mget(tableName, ['a98eMDAwMDAwMDAwMDAwMDAwMg==md'], ['cf1:history', 'cf1:qualifier2'], function (err, result) {
 
 			  console.log(result);
-			  
+
 			should.not.exists(err);
             should.exists(result);
             result.length.should.eql(1);
