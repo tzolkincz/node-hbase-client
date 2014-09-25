@@ -4,10 +4,10 @@ TIMEOUT = 15000
 MOCHA_OPTS =
 
 install:
-	@npm install --registry=https://registry.npm.taobao.org
+	@npm install
 
 jshint: install
-	@./node_modules/.bin/jshint .
+	@./node_modules/.bin/jshint . | true
 
 test: install
 	@NODE_ENV=test ./node_modules/.bin/mocha \
