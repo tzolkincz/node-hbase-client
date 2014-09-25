@@ -30,7 +30,7 @@ var config = {
     error: function () {},
   },
   rpcTimeout: 40000,
-  hostnamePart: '127.0.0.1',
+  hostnamePart: 'localhost.localdomain', //'127.0.0.1',
   invalidHost: '127.0.0.1',
   invalidPort: 65535,
   tableUser: 'test_table',
